@@ -43,7 +43,7 @@ const EditCrewmate = ({data}) => {
     return (
         <div style={{ textAlign: "center", color: "white", padding: "20px" }}>
             <h1>Edit Crewmate</h1>
-            <img src="../lol.png" alt="Peeps" height="100" width="250" /><br />
+            <img src="../../lol.png" alt="Peeps" height="100" width="250" /><br />
 
            <form style={{textAlign:"center"}}>
                 <div className="card">
