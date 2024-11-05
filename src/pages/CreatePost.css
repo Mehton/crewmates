@@ -1,0 +1,35 @@
+
+label {
+    font-size: 20px;
+}
+
+
+input[type=submit]:hover {
+    width: 25%;
+    border-color: #646cff;
+    background-color: #646cff;
+}
+
+
+.card {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 2;
+    line-height: 20px;
+}

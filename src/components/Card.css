@@ -1,0 +1,49 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 4px solid rgba(100, 200, 100, 0.9);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    width: 380px;
+    height: 300px;
+    text-align: center;
+}
+
+.title {
+    color:white;
+    padding-left:30px;
+    font-size: 24px;
+}
+
+.author {
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.description {
+    color:white;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.crewmate {
+    width: 110px;
+    float: center;
+
+}
+
+.moreButton {
+    width: 30px;
+    float:right;
+
+}
+.moreButton:hover {
+    cursor: pointer;
+}
